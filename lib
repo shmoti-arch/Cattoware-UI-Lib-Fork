@@ -27,37 +27,37 @@ library.theme = {
     cursor = false,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
 
-    -- deep radioactive bunker vibes ☢️
+    -- dark void background
     backgroundcolor = Color3.fromRGB(20, 20, 20),
 
     -- text
-    tabstextcolor = Color3.fromRGB(210, 255, 210),
-    toptextcolor = Color3.fromRGB(235, 255, 235),
+    tabstextcolor = Color3.fromRGB(235, 220, 255),
+    toptextcolor = Color3.fromRGB(255, 245, 255),
 
     -- borders / outlines
-    bordercolor = Color3.fromRGB(55, 95, 55),
-    outlinecolor = Color3.fromRGB(70, 120, 70),
+    bordercolor = Color3.fromRGB(85, 60, 120),
+    outlinecolor = Color3.fromRGB(110, 80, 160),
     outlinecolor2 = Color3.fromRGB(0, 0, 0),
 
-    -- toxic green accents
-    accentcolor = Color3.fromRGB(110, 255, 80),
-    accentcolor2 = Color3.fromRGB(45, 140, 35),
+    -- neon purple accents
+    accentcolor = Color3.fromRGB(170, 85, 255),
+    accentcolor2 = Color3.fromRGB(95, 45, 150),
 
     -- panels
-    sectorcolor = Color3.fromRGB(28, 32, 28),
+    sectorcolor = Color3.fromRGB(30, 26, 35),
 
     -- topbar
     topheight = 48,
-    topcolor = Color3.fromRGB(24, 28, 24),
-    topcolor2 = Color3.fromRGB(18, 22, 18),
+    topcolor = Color3.fromRGB(28, 24, 34),
+    topcolor2 = Color3.fromRGB(22, 18, 28),
 
     -- buttons
-    buttoncolor = Color3.fromRGB(40, 55, 40),
-    buttoncolor2 = Color3.fromRGB(30, 42, 30),
+    buttoncolor = Color3.fromRGB(50, 40, 65),
+    buttoncolor2 = Color3.fromRGB(38, 30, 52),
 
     -- misc item text
-    itemscolor = Color3.fromRGB(180, 255, 180),
-    itemscolor2 = Color3.fromRGB(140, 230, 140)
+    itemscolor = Color3.fromRGB(220, 190, 255),
+    itemscolor2 = Color3.fromRGB(190, 150, 255)
 }
 
 if library.theme.cursor and Drawing then
